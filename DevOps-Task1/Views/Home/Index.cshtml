@@ -1,0 +1,7 @@
+﻿@model List<string>
+<div>
+    @foreach (var imageUrl in Model)
+    {
+        <img src="@imageUrl" alt="Image" style="max-width: 100%; height: auto;" />
+    }
+</div>
